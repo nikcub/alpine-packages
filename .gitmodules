@@ -1,0 +1,3 @@
+[submodule "aports"]
+	path = aports
+	url = git@github.com:nikcub/aports.git

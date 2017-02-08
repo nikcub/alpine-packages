@@ -1,0 +1,9 @@
+version: '2'
+services:
+  builder:
+    image: nikcub/alpine-build
+    container_name: alpinebuild
+    volumes:
+      - .:/home/builder
+    stdin_open: true
+    tty: true
